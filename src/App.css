@@ -4,7 +4,7 @@
   min-height: 100vh;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(790deg, #290657, #d82277 48%, #cc8e47);
+  background-image: linear-gradient(360deg, #290657, #d82277 48%, #cc8e47);
   color: white;
 }
 
@@ -51,12 +51,14 @@ button {
 
 .nav {
   background-color: #290657c9;
+  font-family: monospace;
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: stretch;
   gap: 2rem;
   padding: 0 1rem;
+  border: 3px solid#cc8e47;
 }
 
 .site-title {
